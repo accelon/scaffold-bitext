@@ -180,9 +180,14 @@
         visibility: visible !important;
     }
 
+    .codemirror-wrapper :global(.cm-gutters) {
+        background-color:black;
+        color:silver;
+    }
+
     .codemirror-wrapper  :global(.cm-cursor) {
-      background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent black block */
-      width: 0.35em; /* Adjust width to cover a character */
+      background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent black block */
+      width: 0.5em; /* Adjust width to cover a character */
       height: 1em; /* Adjust height to match line height */
     }
     .scm-waiting {

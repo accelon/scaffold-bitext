@@ -15,8 +15,8 @@
           height:"95vh",
 
         }
-  const FolioLineNumbers1 = lineNumbers({ formatNumber: n => folio1[n] })
-  const FolioLineNumbers2 = lineNumbers({ formatNumber: n => folio2[n] })
+  const FolioLineNumbers1 = lineNumbers({ formatNumber: n => folio1[n-1] })
+  const FolioLineNumbers2 = lineNumbers({ formatNumber: n => folio2[n-1] })
 </script>
 
 <main>

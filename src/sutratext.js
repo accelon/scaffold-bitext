@@ -1,4 +1,4 @@
-export const taisho_da_1=`T01n0001
+export const taisho_da_1=`冊欄行	大正藏第一冊第1經 T01n0001
 0001b08	佛说长阿含经卷第一
 0001b09	
 0001b10	後秦弘始年佛陀耶舍共竺佛念译
@@ -830,7 +830,7 @@ export const taisho_da_1=`T01n0001
 0010c28	佛说此大因缘经已诸比丘闻佛所说欢
 0010c29	喜奉行
 0011a01	佛说长阿含经卷第一`
-export const jinshan_da_1=`JS038n0545
+export const jinshan_da_1=`冊欄行	徑山藏第38冊 545 經 JS038n0545
 345a01	佛说长阿含经卷第一
 345a02	姚秦三藏法师佛陀耶舍共竺佛念译
 345a03	第一分初大本缘经第一

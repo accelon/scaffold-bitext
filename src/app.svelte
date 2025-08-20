@@ -10,8 +10,9 @@
   import {transpagePosition} from './transpage.js'
   import {diffChars} from 'diff'
   import {normalizeChinese} from './normalize.js'
+  import {toSim} from '../../ptk/lossless-simplified-chinese/index.ts'
   import {texts_folio,secondtext} from './state.svelte.js'
-  let pos=$state(50);
+  let pos=$state(40);
   let D=[];
   let view2;
   let value2=$state(''),folio2=[];
@@ -20,7 +21,7 @@
     let v2='';
     [v2,folio2] = texts_folio[secondtext.n];
     
-    D=diffChars(normalizeChinese(value1),normalizeChinese(v2));
+    D=diffChars(normalizeChinese(toSim(value1)),normalizeChinese(toSim(v2)));
     value2=v2;
   })
   
